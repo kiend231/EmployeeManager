@@ -141,12 +141,6 @@ class DashboardAdmin extends Component {
                     Khen thưởng, kỷ luật
                   </Link>
                 </li>
-                {/* <li>
-                  <Link to="/admin/portal-master">
-                    <FontAwesomeIcon icon={faTasks} className="sidebar-icon" />
-                    Cổng thông tin
-                  </Link>
-                </li> */}
               </ul>
             </div>
             <div id="main-area">
@@ -162,7 +156,6 @@ class DashboardAdmin extends Component {
                 />
                 <Route path="/admin/complaint-admin" exact component={ComplaintHRF} />
                 <Route path="/admin/reward-admin" exact component={RewardF} />
-                {/* <Route render={() => <NotFound404 />} /> */}
               </Switch>
             </div>
           </div>

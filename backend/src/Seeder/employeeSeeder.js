@@ -4,7 +4,7 @@ const { Employee } = require('../Models/Employee');
 require('dotenv').config();
 
 // Thêm các options cho MongoDB
-mongoose.connect("mongodb+srv://duong:duong123@cluster0.fmp5dvc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", {
+mongoose.connect("mongodb+srv://kientrunglinh123:kientrunglinh123@employeemanager.mqp661b.mongodb.net/?retryWrites=true&w=majority&appName=EmployeeManager", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true
